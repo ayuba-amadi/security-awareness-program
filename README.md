@@ -13,8 +13,8 @@
 | File | Purpose |
 |---|---|
 | [This report](README.md) | The structured programme addressing Tasks 1 to 5. |
-| [12-month calendar](docs/12-month-calendar.md) | The annual delivery roadmap, audience, owner and measurement points. |
-| [Reflection](docs/reflection.md) | The required approximately 150-word design reflection. |
+| [12-month calendar](docs/12-month-calendar.md) | The annual delivery roadmap, audience, owner, and measurement points. |
+| [Reflection](docs/reflection.md) | The design reflection. |
 | [Sources](docs/sources.md) | Clickable evidence sources and framework references. |
 
 ## Scenario facts, assumptions and proposals
@@ -37,7 +37,7 @@ All targets, baseline methods and improvement thresholds in this repository are 
 
 ![Five-stage programme lifecycle](assets/diagrams/lifecycle.svg)
 
-The programme uses short, role-based activities rather than a single annual course. This is intended to fit warehouse shifts, remote work and the limited capacity of the security team. It combines awareness, practice, reporting and review. NIST SP 800-50 Rev. 1 supports a lifecycle approach that connects learning activity, behavioural change and ongoing evaluation [1].
+The programme uses short, role-based activities rather than a single annual course. This is intended to fit warehouse shifts, remote work, and the limited capacity of the security team. It combines awareness, practice, reporting and review. NIST SP 800-50 Rev. 1 supports a lifecycle approach that connects learning activity, behavioural change and ongoing evaluation [1].
 
 The programme is deliberately designed as an operational control, not as a compliance exercise. Each activity must make a safer action clear, give staff a practical way to take that action, and generate evidence that helps Northbridge decide whether the activity is working. Attendance is useful evidence of reach, but it is not evidence that a person can resist an invoice-fraud request or report an accidental data disclosure.
 
