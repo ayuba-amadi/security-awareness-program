@@ -1,11 +1,10 @@
 # Northbridge Logistics Security Awareness Program
 
-**Module:** GRC206  
-**Assignment:** Design a Security Awareness Program  
-**Student:** Ayuba Amadi  
-**Programme:** [Insert programme]  
-**Student ID:** [Insert student ID]  
-**Submission format:** GitHub repository  
+- **Module:** GRC206
+- **Assignment:** Design a Security Awareness Program
+- **Student:** Ayuba Amadi
+- **Programme:** GRC Engineering (CGRCE)
+- **Registration No.:** 2025/GCR/12684
 
 > **Purpose.** This repository presents a practical 12-month cybersecurity awareness programme for Northbridge Logistics. It follows the lifecycle required by the assignment: **Assess, Plan, Deliver, Measure and Improve**.
 
@@ -40,6 +39,8 @@ All targets, baseline methods and improvement thresholds in this repository are 
 
 The programme uses short, role-based activities rather than a single annual course. This is intended to fit warehouse shifts, remote work and the limited capacity of the security team. It combines awareness, practice, reporting and review. NIST SP 800-50 Rev. 1 supports a lifecycle approach that connects learning activity, behavioural change and ongoing evaluation [1].
 
+The programme is deliberately designed as an operational control, not as a compliance exercise. Each activity must make a safer action clear, give staff a practical way to take that action, and generate evidence that helps Northbridge decide whether the activity is working. Attendance is useful evidence of reach, but it is not evidence that a person can resist an invoice-fraud request or report an accidental data disclosure.
+
 ## Task 1 — Assess
 
 ### Priority human risks
@@ -52,6 +53,8 @@ The programme uses short, role-based activities rather than a single annual cour
 
 ![Risk to safer behaviour map](assets/diagrams/risk-to-behaviour-map.svg)
 
+Invoice fraud is prioritised because a successful attack could cause immediate financial loss and could bypass ordinary technical controls by exploiting urgency and trust. Password reuse is prioritised because a breach of one external account can expose a Northbridge account if staff use the same password. Customer-data mishandling is prioritised because different work environments create several opportunities for an error, such as sending a file to the wrong recipient or using an unapproved sharing method. These risks are linked: a phishing message can lead to credential theft, fraud or unauthorised disclosure.
+
 ### Audience segmentation and needs
 
 | Audience | Why it needs a distinct approach | Priority topics | Suitable format |
@@ -61,11 +64,17 @@ The programme uses short, role-based activities rather than a single annual cour
 | Remote sales and customer-facing staff | They work through email, mobile and customer data systems outside head office. | Credential protection, customer-data handling, social engineering and secure remote work. | Mobile-friendly microlearning and simulated message exercises. |
 | Managers, executives and privileged IT users | They approve exceptions, receive targeted fraud attempts or hold higher-risk access. | Business email compromise, incident escalation, approval controls and leadership response. | Role-based briefing and short tabletop exercise. |
 
+![Audience and delivery design](assets/diagrams/audience-delivery-map.svg)
+
+The audience design avoids treating all employees as a single group. A warehouse colleague may need a short in-person briefing and a supervisor who can answer questions at shift handover. A remote salesperson may need a mobile-friendly scenario about an unexpected customer-data request. Finance staff need a repeatable verification process and authority to pause a transaction. Leaders need enough understanding to remove obstacles, approve controls and respond appropriately when risk is reported.
+
 ### Pre-launch baseline
 
 Before Month 1, the security lead will create a baseline record. It will include completion data from any existing learning, suspicious-message reports per 100 staff, phishing-simulation reporting and interaction rates, known credential-reuse findings, and finance evidence of payment-change verification. Data owners will remove or minimise personal identifiers before leadership reporting.
 
 The baseline must state its period, source, coverage and limitations. For example, low reporting may mean staff do not recognise scams, do not know the route, or fear blame. It must not be treated as proof of low attack volume.
+
+The Security Lead will record the baseline in a simple evidence register. Each metric will include the population covered, the date range, calculation method, data owner and any known quality issue. This enables later comparisons to distinguish a genuine behavioural change from a difference in campaign difficulty, staffing levels or reporting-system availability.
 
 ## Task 2 — Plan
 
@@ -79,6 +88,8 @@ The baseline must state its period, source, coverage and limitations. For exampl
 
 The executive sponsor is the Operations Director, because warehouse operations, payroll-related approvals and customer service all depend on operational leadership. The Security Lead owns content, campaign design, metrics and quarterly reviews. HR/L&D maintains completion records and onboarding. Finance owns payment-verification practice. Managers protect time for briefings and use supportive follow-up.
 
+The sponsor will resolve cross-functional barriers that the Security Lead cannot solve alone, such as access to warehouse staff during shifts, time for managers to conduct briefings, and availability of the approved reporting route. Ownership is important because no single small security team can deliver, reinforce and measure the programme alone. Each owner is accountable for evidence within their control, while the quarterly forum tests whether the programme is coherent as a whole.
+
 ### Risk-to-content traceability
 
 | Risk | Audience | Topic | Activity | Metric |
@@ -86,6 +97,8 @@ The executive sponsor is the Operations Director, because warehouse operations, 
 | Invoice fraud | Finance, procurement, managers | Verification before payment or supplier-detail change | Realistic fraud case and callback verification exercise | Verified payment-change rate; fraud reports |
 | Credential exposure | All staff; remote sales; IT | Unique passwords, password manager and prompt reporting | Microlearning plus supportive simulation follow-up | Unsafe interaction rate; credential-reuse findings |
 | Customer-data handling | Sales, customer service, warehouse supervisors | Approved tools, recipient checks and rapid mistake reporting | Role-specific case study and supervisor discussion | Data-handling reports; learner feedback |
+
+The traceability table is the programme's control logic. It prevents Northbridge from selecting attractive topics that do not address a documented risk. When the quarterly review identifies a new scam or repeated unsafe action, the Security Lead must update this traceability record before adding a new campaign, metric or training request.
 
 ## Task 3 — Deliver
 
@@ -101,15 +114,23 @@ The programme begins with a visible sponsor message explaining that security rep
 | Remote sales reinforcement | Monthly mobile-friendly prompt and short scenario. | Fits distributed work and customer-data risk. |
 | New starter onboarding | Core learning and reporting route within the first five working days; role module within 30 days. | Reduces the gap before a new employee understands expected behaviour. |
 
+Delivery will use clear language, captions where video is used, readable visual prompts and accessible formats. Supervisors will be given a short facilitator note so delivery is consistent while still allowing a local example. Staff who miss a shift briefing or are on leave will have a defined catch-up route rather than being marked non-compliant without support.
+
 ### Phishing simulation approach
 
 The security team will run three controlled simulations during the year: a baseline in Month 2, a role-relevant follow-up in Month 6, and a comparative campaign in Month 10. Campaigns will use clear internal governance: leadership approval, legal/privacy review where needed, minimal collection of personal data, and a documented support process. The purpose is to identify learning needs, not to shame individuals.
 
 People who interact with a simulation will receive immediate, respectful guidance explaining the cues they missed and how to report similar messages. Managers will receive aggregated team trends, unless a separate authorised process requires individual review.
 
+Simulation design will avoid themes that create unnecessary distress or imitate internal emergencies. It will identify a safe training domain, provide a visible reporting option, preserve only necessary event data and define a retention period. The security team will compare results only when audience, scenario type and delivery conditions are sufficiently similar. A single campaign cannot demonstrate a long-term change in behaviour.
+
 ### No-blame reporting route
 
 Staff will report suspicious emails, payment requests, lost devices or potential data mistakes through the approved reporting mailbox or service desk. Communications will state: **Stop, do not forward externally, report promptly, and preserve the original message where possible.** The security team will acknowledge reports, classify them and share anonymised learning back to the workforce.
+
+![No-blame reporting route](assets/diagrams/reporting-route.svg)
+
+The reporting route will be tested before launch by staff from office, warehouse and remote roles. The test checks whether people know the channel, whether it works from a mobile device, whether reports receive an acknowledgement, and whether a staff member can obtain help during a shift. A reporting route that is technically available but hard to use during normal work is not an effective awareness control.
 
 ## Task 4 — Measure
 
@@ -125,6 +146,8 @@ Staff will report suspicious emails, payment requests, lost devices or potential
 
 The Security Lead will provide a one-page monthly leadership dashboard with programme reach, behaviour indicators, trend direction, material incidents, data limitations and decisions required. It will avoid league tables that shame teams. Leadership will use it to remove obstacles such as lack of warehouse access, unavailable supervisors or insufficient finance-control capacity.
 
+The dashboard will separate observations from decisions. For example, a fall in reported simulations could result from less recognition, a different campaign or a reporting outage. The dashboard must say what is known, what is uncertain and what leadership needs to decide. It must not present a correlation as proof that one activity caused a reduction in incidents.
+
 ## Task 5 — Improve and sustain
 
 ### Quarterly review routine
@@ -132,6 +155,8 @@ The Security Lead will provide a one-page monthly leadership dashboard with prog
 The Operations Director chairs a quarterly review with the Security Lead, HR/L&D, Finance, a warehouse representative, a remote-sales representative and Privacy/Legal where customer-data issues require their input. The group reviews the baseline, completion gaps, reporting quality, simulation results, incident themes, learner feedback and outstanding actions.
 
 The Security Lead maintains an action log with an owner, target date, evidence of completion and decision. Content must be reviewed earlier if there is a material fraud attempt, an emerging scam, a change to payment procedures, a relevant security incident or feedback that a delivery method is inaccessible.
+
+The review meeting will make one of four documented decisions for every significant finding: retain the activity, improve it, replace it or stop it. This prevents the programme from expanding without evidence of value. Where an incident reveals a process weakness, the review will assign the appropriate operational or technical owner rather than attempting to solve every problem with more awareness training.
 
 ### Learner feedback and recognition
 
@@ -144,6 +169,8 @@ Two recognition methods are proposed:
 
 Recognition will celebrate reporting and safer choices without naming people who made errors.
 
+Feedback will be coded into themes such as relevance, accessibility, confidence in reporting and clarity of expected actions. The Security Lead will publish a short "you said, we changed" update after each quarterly review. This closes the feedback loop and demonstrates that reporting and learner input lead to practical improvements.
+
 ## Consistency check
 
 Every activity connects to a documented risk, audience, safer behaviour, metric and review decision. The detailed sequence is available in the [12-month calendar](docs/12-month-calendar.md).
@@ -155,4 +182,3 @@ Every activity connects to a documented risk, audience, safer behaviour, metric 
 See the complete clickable source list in [Sources](docs/sources.md).
 
 **[1]** National Institute of Standards and Technology. (2024). *Building a Cybersecurity and Privacy Learning Program* (SP 800-50 Rev. 1).
-
