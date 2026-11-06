@@ -23,3 +23,8 @@
 
 Each quarterly review records participants, evidence reviewed, decisions, action owners, target dates and completion evidence. The programme is changed when evidence indicates a real operational need, not merely to add more training.
 
+## How to use this roadmap
+
+The calendar is a delivery guide, not a fixed sequence that overrides an operational incident. If a material invoice-fraud attempt, new scam, customer-data event or process change occurs, the Security Lead may bring forward a relevant activity after recording the reason and confirming the responsible owner. This keeps the programme responsive without allowing unplanned work to displace the core controls.
+
+Each monthly activity should produce one or more retained outputs: an approved learning item, briefing record, anonymised feedback summary, campaign report, control sample or action-log update. These outputs give the quarterly review enough evidence to decide whether the next stage should continue, change or stop.
